@@ -8,7 +8,7 @@ categories:
 
 ### 1変数の述語の話
 
-述語 \(f: \mathcal{X} \rightarrow \{0, 1\}\) を考える．
+述語$f: \mathcal{X} \rightarrow \\{0, 1\\}$を考える．
 以下の二つは命題である．
 
 - $\forall x \in \mathcal{X}: f(x)$
@@ -63,7 +63,7 @@ B_f = \cup_{x \in \mathcal{X}} \left\{y \in \mathcal{Y} | f(x, y)\right\}
 $$
 
 ここで，確率空間$(\mathcal{Y}, \mathcal{F}, P)$を導入しよう．任意の$x \in \mathcal{X}$に対して，$f(x, \cdot)$は$\mathcal{F}$-可測だとする．
-そうすると，任意の$x \in \mathcal{X}$に対して，$\left\{y \in \mathcal{Y} | f(x, y)\right\} \in \mathcal{F}$である．
+そうすると，任意の$x \in \mathcal{X}$に対して，$\left\\{y \in \mathcal{Y} | f(x, y)\right\\} \in \mathcal{F}$である．
 さらに，$\mathcal{F}$は$\sigma$-加法族なので，$B_f \in \mathcal{F}$である．よって，$P$で測れる．
 
 測度の劣加法性を使えば，以下のように$P(B_f)$の上界を出せる．
@@ -155,9 +155,7 @@ $$
 
 ## 量子力学の話
 
-今日から以下の本で，量子力学に入門する．
-
-<a href="https://www.amazon.co.jp/gp/product/406153209X/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=nettodesyuu00-22&linkId=aad08fd381d00ad868d2c8b7e363a51d&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=406153209X&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=nettodesyuu00-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=nettodesyuu00-22&language=ja_JP&l=li2&o=9&a=406153209X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+今日から，量子力学に入門する．
 
 まずは概念的なものを掴むこと．
 できればプログラミングしながら学べると良い．

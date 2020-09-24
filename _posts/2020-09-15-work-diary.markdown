@@ -8,7 +8,7 @@ categories:
 
 ### 1変数の述語の話
 
-述語$f: \mathcal{X} \rightarrow \{0, 1\}$を考える．
+述語 $f: \mathcal{X} \rightarrow \{0, 1\}$ を考える．
 以下の二つは命題である．
 
 - $\forall x \in \mathcal{X}: f(x)$

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Work diary 2020/09/26"
 categories: 
 ---
